@@ -335,7 +335,7 @@ export default function Home() {
             Após a assinatura você irá receber em seu e-mail o login para acessar a plataforma exclusiva diretamento no seu dispositivo...
           </p>
           <Image
-            src={img("jffYgL5564137.webp?quality=81")}
+            src="/page-1/login.png"
             alt="Como acessar o aplicativo"
             width={700}
             height={420}
@@ -351,7 +351,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 bg-[#0d0d0d] border-2 border-green-700 rounded-3xl p-8 shadow-sm text-center md:text-left">
             <Image
-              src={img("PYibNH5698813.webp?quality=83")}
+              src="/page-1/garantia.jpg"
               alt="Garantia 7 dias"
               width={180}
               height={180}
@@ -544,7 +544,7 @@ export default function Home() {
             <div className="text-center w-full">
               <p className="font-black text-red-500 text-lg mb-4 uppercase">TRADICIONAIS (NÃO RECOMENDADO)</p>
               <Image
-                src={img("xzGkiY1701237.webp?quality=74")}
+                src="/page-1/folha-gospel.png"
                 alt="Desenhos tradicionais - não recomendado"
                 width={500}
                 height={400}
@@ -554,7 +554,7 @@ export default function Home() {
             <div className="text-center w-full">
               <p className="font-black text-green-500 text-lg mb-4 uppercase">CRISTÃOS (RECOMENDADO)</p>
               <Image
-                src={img("NWqDkR1783179.webp?quality=73")}
+                src="/page-1/folha-boa.png"
                 alt="Desenhos cristãos - recomendado"
                 width={500}
                 height={400}
