@@ -351,7 +351,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 bg-[#0d0d0d] border-2 border-green-700 rounded-3xl p-8 shadow-sm text-center md:text-left">
             <Image
-              src="/page-1/garantia.jpg"
+              src="/page-1/garantia7.png"
               alt="Garantia 7 dias"
               width={180}
               height={180}
