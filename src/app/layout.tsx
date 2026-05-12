@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Clube dos Pequenos Discípulos — Entretenimento Cristão para Crianças",
+  title: "CaminhoFlix — Entretenimento Cristão para Crianças",
   description: "A plataforma de entretenimento cristão mais completa para crianças. +300 filmes, histórias bíblicas, jogos educativos e muito mais!",
 };
 
