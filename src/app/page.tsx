@@ -413,7 +413,7 @@ export default function Home() {
                   ))}
                 </div>
                 <a
-                  href="https://pay.cakto.com.br/3aoobk8"
+                  href="https://pay.kiwify.com.br/Yq1yq2U"
                   onClick={() => (window as unknown as { fbq: (...a: unknown[]) => void }).fbq?.('track', 'InitiateCheckout')}
                   className="block w-full text-center bg-gray-700 hover:bg-gray-600 text-white font-black py-4 rounded-2xl uppercase tracking-wide transition-colors"
                 >
@@ -463,7 +463,7 @@ export default function Home() {
                   ))}
                 </div>
                 <a
-                  href="https://pay.cakto.com.br/pjq4t8x"
+                  href="https://pay.kiwify.com.br/8GrP31I"
                   onClick={() => (window as unknown as { fbq: (...a: unknown[]) => void }).fbq?.('track', 'InitiateCheckout')}
                   className="bounce-slow block w-full text-center bg-green-500 hover:bg-green-400 text-white font-black py-5 rounded-2xl uppercase tracking-wide transition-colors text-base shadow-lg shadow-green-900"
                 >
