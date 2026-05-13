@@ -76,6 +76,8 @@ export default function Home() {
           width={400}
           height={260}
           className="object-contain"
+          sizes="400px"
+          quality={85}
           priority
         />
       </div>
@@ -121,6 +123,8 @@ export default function Home() {
           width={500}
           height={160}
           className="object-contain"
+          sizes="500px"
+          quality={80}
         />
       </div>
 
@@ -164,7 +168,7 @@ export default function Home() {
               { src: "/page-1/daniel-4.png", label: "Daniel e os Leões" },
             ].map(({ src, label }) => (
               <div key={src} className="rounded-xl overflow-hidden shadow-sm">
-                <Image src={src} alt={label} width={300} height={300} className="w-full object-cover" />
+                <Image src={src} alt={label} width={300} height={300} className="w-full object-cover" sizes="(max-width: 768px) 50vw, 300px" quality={80} />
               </div>
             ))}
           </div>
@@ -187,7 +191,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             {/* Bônus 1 */}
             <div className="bg-[#1a1a1a] border border-gray-700 rounded-2xl overflow-hidden shadow-sm">
-              <Image src="/page-1/monte-davi.png" alt="Atividades e Jogos Bíblicos" width={600} height={380} className="w-full object-cover" />
+              <Image src="/page-1/monte-davi.png" alt="Atividades e Jogos Bíblicos" width={600} height={380} className="w-full object-cover" sizes="(max-width: 768px) 100vw, 33vw" quality={80} />
               <div className="p-5">
                 <span className="inline-block bg-green-900 text-green-400 text-xs font-black px-3 py-1 rounded-full mb-2">BÔNUS 1</span>
                 <h3 className="font-black text-white text-lg mb-1">ATIVIDADES E JOGOS BÍBLICOS</h3>
@@ -197,7 +201,7 @@ export default function Home() {
 
             {/* Bônus 2 */}
             <div className="bg-[#1a1a1a] border border-gray-700 rounded-2xl overflow-hidden shadow-sm">
-              <Image src="/page-1/quiz.png" alt="Quizzes Bíblicos" width={600} height={380} className="w-full object-cover" />
+              <Image src="/page-1/quiz.png" alt="Quizzes Bíblicos" width={600} height={380} className="w-full object-cover" sizes="(max-width: 768px) 100vw, 33vw" quality={80} />
               <div className="p-5">
                 <span className="inline-block bg-green-900 text-green-400 text-xs font-black px-3 py-1 rounded-full mb-2">BÔNUS 2</span>
                 <h3 className="font-black text-white text-lg mb-1">Quizzes Bíblicos</h3>
@@ -208,7 +212,7 @@ export default function Home() {
             {/* Bônus 3 */}
             <div className="bg-[#1a1a1a] border border-gray-700 rounded-2xl overflow-hidden shadow-sm">
               <div className="flex justify-center bg-[#1a1a1a] pt-4">
-                <Image src="/page-1/celular.png" alt="Grupo VIP" width={200} height={280} className="object-contain" />
+                <Image src="/page-1/celular.png" alt="Grupo VIP" width={200} height={280} className="object-contain" sizes="200px" quality={80} />
               </div>
               <div className="p-5">
                 <span className="inline-block bg-green-900 text-green-400 text-xs font-black px-3 py-1 rounded-full mb-2">BÔNUS 3</span>
@@ -236,7 +240,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             {/* Mapas Mentais */}
             <div className="bg-[#0d0d0d] border border-gray-700 rounded-2xl overflow-hidden shadow-sm text-center">
-              <Image src="/page-1/mapa.png" alt="Mapas mentais infantis" width={400} height={300} className="w-full object-cover" />
+              <Image src="/page-1/mapa.png" alt="Mapas mentais infantis" width={400} height={300} className="w-full object-cover" sizes="(max-width: 768px) 100vw, 33vw" quality={80} />
               <div className="p-5">
                 <h3 className="font-black text-white mb-2">Mapas mentais infantis</h3>
                 <p className="text-gray-400 text-sm">Aprender sobre a Bíblia fica muito mais divertido e fácil com esses mapas mentais coloridos e ilustrados!</p>
@@ -245,7 +249,7 @@ export default function Home() {
 
             {/* Colorindo */}
             <div className="bg-[#0d0d0d] border border-gray-700 rounded-2xl overflow-hidden shadow-sm text-center">
-              <Image src="/page-1/bobbie%20goods.png" alt="Colorindo com Jesus" width={400} height={300} className="w-full object-cover" />
+              <Image src="/page-1/bobbie%20goods.png" alt="Colorindo com Jesus" width={400} height={300} className="w-full object-cover" sizes="(max-width: 768px) 100vw, 33vw" quality={80} />
               <div className="p-5">
                 <h3 className="font-black text-white mb-1">Colorindo com Jesus</h3>
                 <p className="text-green-500 text-xs font-bold mb-1">Estilo Bobbie Goods</p>
@@ -255,7 +259,7 @@ export default function Home() {
 
             {/* Devocionais */}
             <div className="bg-[#0d0d0d] border border-gray-700 rounded-2xl overflow-hidden shadow-sm text-center">
-              <Image src="/page-1/devocional.png" alt="Devocionais Infantis" width={400} height={300} className="w-full object-cover" />
+              <Image src="/page-1/devocional.png" alt="Devocionais Infantis" width={400} height={300} className="w-full object-cover" sizes="(max-width: 768px) 100vw, 33vw" quality={80} />
               <div className="p-5">
                 <h3 className="font-black text-white mb-2">DEVOCIONAIS INFANTIS</h3>
                 <p className="text-gray-400 text-sm">Ensinam valores cristãos e ajudam as crianças a se conectarem com Deus desde cedo</p>
@@ -340,6 +344,8 @@ export default function Home() {
             width={700}
             height={420}
             className="w-full object-contain mx-auto"
+            sizes="(max-width: 768px) 100vw, 700px"
+            quality={80}
           />
         </div>
       </section>
@@ -356,6 +362,8 @@ export default function Home() {
               width={180}
               height={180}
               className="flex-shrink-0 object-contain"
+              sizes="180px"
+              quality={85}
             />
             <p className="text-gray-300 leading-relaxed">
               A única maneira de você saber se a plataforma é para você ou não é estando por dentro.
@@ -428,7 +436,7 @@ export default function Home() {
               </div>
               <div className="bg-[#0d0d0d] p-8 flex flex-col flex-1">
                 <div className="flex justify-center mb-4">
-                  <Image src="/page-1/caminho50.png" alt="CaminhoFlix 50% de desconto" width={320} height={220} className="object-contain" />
+                  <Image src="/page-1/caminho50.png" alt="CaminhoFlix 50% de desconto" width={320} height={220} className="object-contain" sizes="320px" quality={85} />
                 </div>
                 <div className="text-center mb-6 bg-[#111] rounded-2xl py-5 px-4">
                   <span className="inline-block bg-green-500 text-white text-sm font-black px-4 py-1.5 rounded-full mb-3">
@@ -488,7 +496,7 @@ export default function Home() {
               { src: "/page-1/desenho-animado-crianca.png",label: "Desenhos Animados" },
             ].map(({ src, label }) => (
               <div key={src} className="bg-[#0d0d0d] border border-gray-700 rounded-2xl overflow-hidden shadow-sm">
-                <Image src={src} alt={label} width={400} height={280} className="w-full object-cover" />
+                <Image src={src} alt={label} width={400} height={280} className="w-full object-cover" sizes="(max-width: 768px) 50vw, 400px" quality={80} />
               </div>
             ))}
           </div>
@@ -512,6 +520,8 @@ export default function Home() {
             width={700}
             height={500}
             className="w-full object-contain mx-auto mb-8"
+            sizes="(max-width: 768px) 100vw, 700px"
+            quality={80}
           />
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a href="#" className="inline-flex items-center gap-3 bg-[#1a1a1a] border border-gray-600 text-white font-bold px-6 py-3 rounded-xl hover:bg-[#222] transition-colors">
@@ -551,6 +561,8 @@ export default function Home() {
                 width={500}
                 height={400}
                 className="w-full object-contain rounded-2xl shadow-sm"
+                sizes="(max-width: 768px) 100vw, 500px"
+                quality={80}
               />
             </div>
             <div className="text-center w-full">
@@ -561,6 +573,8 @@ export default function Home() {
                 width={500}
                 height={400}
                 className="w-full object-contain rounded-2xl shadow-sm"
+                sizes="(max-width: 768px) 100vw, 500px"
+                quality={80}
               />
             </div>
           </div>
@@ -627,6 +641,8 @@ export default function Home() {
             width={500}
             height={160}
             className="object-contain mx-auto"
+            sizes="500px"
+            quality={85}
           />
         </div>
       </section>
